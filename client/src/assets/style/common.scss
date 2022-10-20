@@ -1,0 +1,27 @@
+h1 {
+    font-size: rem(28);
+    font-weight: 700;
+    text-transform: uppercase;
+}
+h2,
+h3 {
+    font-size: rem(24);
+    font-weight: 600;
+}
+
+.page {
+    padding-top: 113px;
+    @media (min-width: $mobileSmall) {
+        padding-top: 70px;
+    }
+}
+
+.green-block {
+    @include colorBlockStyle($green, $backgroundGreen);
+}
+.red-block {
+    @include colorBlockStyle($red, $backgroundRed);
+}
+.grey-block {
+    @include colorBlockStyle($greyFont, $backgroundGreyFont);
+}

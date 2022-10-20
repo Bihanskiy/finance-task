@@ -1,0 +1,12 @@
+@import "../../../assets/style/tools/tools";
+
+.btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: transparent;
+    .icon-cross {
+        @include circleBackground(rem(14), #cecece);
+        padding: rem(7);
+    }
+}

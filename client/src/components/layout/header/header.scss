@@ -1,0 +1,32 @@
+@import "../../../assets/style/tools/tools";
+
+.header {
+    background-color: white;
+    padding: rem(15) 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 999;
+
+    &__wrapper {
+        position: relative;
+        display: flex;
+        align-items: center;
+        gap: rem(15);
+        @media (max-width: $mobileSmall) {
+            flex-wrap: wrap;
+        }
+    }
+
+    &__logo {
+        flex: 0 1 30%;
+    }
+
+    &__tools {
+        flex: 0 1 70%;
+        @media (max-width: $mobileSmall) {
+            flex: 0 1 100%;
+        }
+    }
+}

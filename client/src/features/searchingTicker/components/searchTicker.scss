@@ -1,0 +1,37 @@
+@import "../../../assets/style/tools/tools";
+
+.search {
+    height: rem(40);
+    background-color: $grey;
+    position: relative;
+    width: 60%;
+    border-radius: 10px;
+    overflow: hidden;
+
+    @media (max-width: $tablet) {
+        width: 75%;
+    }
+    @media (max-width: $mobile) {
+        width: 90%;
+    }
+    @media (max-width: $mobileSmall) {
+        width: 100%;
+    }
+
+    &__close-button {
+        position: absolute;
+        top: 4px;
+        right: 5px;
+        .icon-cross {
+            @include circleBackground(rem(14), #cecece);
+            padding: rem(9);
+        }
+    }
+}
+.btn-search-cleaner {
+    top: 4px;
+    right: 5px;
+    .icon-cross {
+        padding: rem(9);
+    }
+}

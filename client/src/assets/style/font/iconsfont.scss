@@ -1,0 +1,39 @@
+@font-face {
+  font-family: 'icons';
+  src:  url('../../fonts/icons.eot?8xiyqr');
+  src:  url('../../fonts/icons.eot?8xiyqr#iefix') format('embedded-opentype'),
+    url('../../fonts/icons.ttf?8xiyqr') format('truetype'),
+    url('../../fonts/icons.woff?8xiyqr') format('woff'),
+    url('../../fonts/icons.svg?8xiyqr#icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"]::before, 
+[class*=" icon-"]::before {
+  font-family: 'icons' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-search:before {
+  content: "\e986";
+}
+.icon-cross:before {
+  content: "\ea0f";
+}
+.icon-arrow-up:before {
+  content: "\ea3a";
+}
+.icon-arrow-down:before {
+  content: "\ea3e";
+}
+

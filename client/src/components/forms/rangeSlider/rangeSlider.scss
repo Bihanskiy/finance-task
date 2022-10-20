@@ -1,0 +1,23 @@
+@import "../../../assets/style/tools/tools";
+
+.range-slider {
+    &__title {
+        display: flex;
+        align-items: center;
+        gap: rem(15);
+        padding-bottom: rem(20);
+    }
+
+    &__item {
+        width: 40%;
+        @media (max-width: $tablet) {
+            width: 60%;
+        }
+        @media (max-width: $mobile) {
+            width: 70%;
+        }
+        @media (max-width: $mobileSmall) {
+            width: 100%;
+        }
+    }
+}

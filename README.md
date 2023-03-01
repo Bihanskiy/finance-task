@@ -6,10 +6,9 @@ App display price tickers data on the UI in realtime.
 Price data is available from a locally running service.
 
 Technologies:
-- React (preferable with hooks)
-- Redux (with Redux-Thunk or any other Redux middleware you are familiar) or any other state-manager library you want
+- React 
+- Redux 
 - Socket.io - to connect to the service
-- any UI library you want, or you can use just pure CSS
 - Testing Library
 
 ## Running the local service
